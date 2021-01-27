@@ -1,0 +1,36 @@
+server:
+  listen_host: 127.0.0.1
+  listen_port: 5000
+  server_url: http://localhost:5000
+
+configuration:
+  morpfw.scan:
+    - morpcc_ttw
+ 
+  morpfw.authn.policy: morpcc.app:AuthnPolicy
+
+
+  morpfw.storage.sqlstorage.dburi: 'postgresql://postgres:postgres@localhost:5432/morpcc_ttw'
+  morpfw.storage.sqlstorage.dburi.warehouse: 'postgresql://postgres:postgres@localhost:5432/morpcc_ttw_warehouse'
+  morpfw.blobstorage.uri: 'fsblob://%(here)s/blobstorage'
+  # generate new key using 
+  # from cryptography.fernet import Fernet
+  # print(Fernet.generate_key().decode('utf8'))
+  morpfw.secret.fernet_key: qCOjDfp3odXywqQDw9ad_xBkP43vH7TWoEa-G0xnYyE=
+  morpfw.beaker.session.type: ext:database
+  morpfw.beaker.session.url: 'postgresql://postgres:postgres@localhost:5432/morpcc_ttw_cache'
+  morpfw.beaker.cache.type: ext:database
+  morpfw.beaker.cache.url: 'postgresql://postgres:postgres@localhost:5432/morpcc_ttw_cache'
+
+  morpfw.celery:
+    # celery settings variables
+    broker_url: 'amqp://guest:guest@localhost:5672/'
+    result_backend: 'db+postgresql://postgres@localhost:5432/morpcc_ttw_cache'
+
+application:
+  title: morpcc_ttw
+  class: morpcc_ttw.app:App
+ 
+  factory: morpcc.app:create_morpcc_app
+
+  development_mode: true
