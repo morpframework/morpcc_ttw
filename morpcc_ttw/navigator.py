@@ -1,10 +1,11 @@
 import typing
 
 import rulez
-from morpcc.attribute.model import AttributeModel
-from morpcc.dictionaryelement.model import DictionaryElementModel
-from morpcc.relationship.model import RelationshipModel
-from morpcc.schema.model import SchemaModel
+
+from morpcc_ttw.attribute.model import AttributeModel
+from morpcc_ttw.dictionaryelement.model import DictionaryElementModel
+from morpcc_ttw.relationship.model import RelationshipModel
+from morpcc_ttw.schema.model import SchemaModel
 
 from .app import App
 from .entitycontent.path import content_collection_factory

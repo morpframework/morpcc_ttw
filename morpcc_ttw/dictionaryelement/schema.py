@@ -3,15 +3,15 @@ from dataclasses import dataclass, field
 
 import morpfw
 from deform.widget import SelectWidget
+from morpcc.deform.referencewidget import ReferenceWidget
+from morpcc.deform.richtextwidget import RichTextWidget
+from morpcc.preparer.html import HTMLSanitizer
+from morpcc.validator.reference import ReferenceValidator
+from morpcc.validator.vocabulary import VocabularyValidator
 from morpfw.validator.field import valid_identifier
 
 from ..attribute.schema import ACCEPTED_TYPES, valid_type
-from ..deform.referencewidget import ReferenceWidget
-from ..deform.richtextwidget import RichTextWidget
-from ..preparer.html import HTMLSanitizer
 from ..referencedataproperty.schema import PROPERTY_TYPES, valid_property_types
-from ..validator.reference import ReferenceValidator
-from ..validator.vocabulary import VocabularyValidator
 from .form_validator import valid_refdata
 
 

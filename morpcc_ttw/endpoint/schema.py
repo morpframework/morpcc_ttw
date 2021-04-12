@@ -2,11 +2,10 @@ import typing
 from dataclasses import dataclass, field
 
 import morpfw
+from morpcc.deform.codewidget import CodeWidget
+from morpcc.deform.richtextwidget import RichTextWidget
+from morpcc.preparer.html import HTMLSanitizer
 from morpfw.validator.field import valid_namespaced_identifier
-
-from ..deform.codewidget import CodeWidget
-from ..deform.richtextwidget import RichTextWidget
-from ..preparer.html import HTMLSanitizer
 
 
 @dataclass

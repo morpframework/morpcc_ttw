@@ -2,11 +2,10 @@ import typing
 from dataclasses import dataclass, field
 
 import morpfw
+from morpcc.deform.referencewidget import ReferenceWidget
+from morpcc.validator.field import valid_refdatakey
+from morpcc.validator.reference import ReferenceValidator
 from morpfw.validator.field import valid_identifier
-
-from ..deform.referencewidget import ReferenceWidget
-from ..validator.field import valid_refdatakey
-from ..validator.reference import ReferenceValidator
 
 
 @dataclass

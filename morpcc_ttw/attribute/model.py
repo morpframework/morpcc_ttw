@@ -3,10 +3,10 @@ from datetime import date, datetime
 import morpfw
 import rulez
 from deform.widget import TextAreaWidget
+from morpcc.deform.richtextwidget import RichTextWidget
+from morpcc.preparer.html import HTMLSanitizer
 
 from ..deform.refdatawidget import ReferenceDataWidget
-from ..deform.richtextwidget import RichTextWidget
-from ..preparer.html import HTMLSanitizer
 from ..validator.refdata import ReferenceDataValidator
 from .modelui import AttributeCollectionUI, AttributeModelUI
 from .schema import ACCEPTED_TYPES, AttributeSchema

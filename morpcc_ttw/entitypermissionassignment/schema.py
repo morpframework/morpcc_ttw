@@ -3,13 +3,10 @@ from dataclasses import dataclass, field
 
 import deform
 import morpfw
-
-from ..permissionassignment.schema import (
-    group_select_widget,
-    permission_select_widget,
-    roles_select_widget,
-    user_select_widget,
-)
+from morpcc.permissionassignment.schema import (group_select_widget,
+                                                permission_select_widget,
+                                                roles_select_widget,
+                                                user_select_widget)
 
 
 @dataclass

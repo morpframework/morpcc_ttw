@@ -4,12 +4,12 @@ from dataclasses import dataclass, field
 import morpfw
 from deform.widget import SelectWidget
 from morpcc.crud.model import CollectionUI, ModelUI
+from morpcc.deform.referencewidget import ReferenceWidget
+from morpcc.validator.reference import ReferenceValidator
 from morpfw.crud.model import Collection, Model
 from morpfw.validator.field import valid_identifier
 
 from ..attribute.form_validator import required_if_primary_key, unique_attribute
-from ..deform.referencewidget import ReferenceWidget
-from ..validator.reference import ReferenceValidator
 from .form_validator import valid_search_attribute
 
 

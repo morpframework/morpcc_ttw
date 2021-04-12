@@ -3,16 +3,16 @@ from dataclasses import dataclass, field
 
 import morpfw
 from deform.widget import Select2Widget, TextAreaWidget
+from morpcc.deform.codewidget import CodeWidget
+from morpcc.deform.referencewidget import ReferenceWidget
+from morpcc.deform.richtextwidget import RichTextWidget
+from morpcc.deform.vocabularywidget import VocabularyWidget
+from morpcc.preparer.html import HTMLSanitizer
+from morpcc.validator.reference import ReferenceValidator
+from morpcc.validator.vocabulary import VocabularyValidator
 from morpfw.validator.field import valid_namespaced_identifier
 
 from ..attribute.schema import ACCEPTED_TYPES, valid_type
-from ..deform.codewidget import CodeWidget
-from ..deform.referencewidget import ReferenceWidget
-from ..deform.richtextwidget import RichTextWidget
-from ..deform.vocabularywidget import VocabularyWidget
-from ..preparer.html import HTMLSanitizer
-from ..validator.reference import ReferenceValidator
-from ..validator.vocabulary import VocabularyValidator
 
 
 @dataclass

@@ -1,7 +1,6 @@
 import morpfw
+from morpcc.restrictedpython import get_restricted_function
 from RestrictedPython import compile_restricted
-
-from ..restrictedpython import get_restricted_function
 
 #
 from .modelui import EndpointHandlerCollectionUI, EndpointHandlerModelUI

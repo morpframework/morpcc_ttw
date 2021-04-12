@@ -3,6 +3,7 @@ import rulez
 from morpcc.crud.view.edit import edit as default_edit
 from morpcc.crud.view.listing import listing as default_listing
 from morpcc.crud.view.view import view as default_view
+from morpcc.index.path import get_collection as get_index_collection
 from morpfw.crud import permission as crudperm
 from pygments import highlight
 from pygments.formatters import HtmlFormatter
@@ -11,7 +12,6 @@ from pygments.lexers import PythonLexer
 from ..app import App
 from ..entity.path import get_collection as get_dm_collection
 from ..entitycontent.model import content_collection_factory
-from ..index.path import get_collection as get_index_collection
 from .adapters import ApplicationDatabaseSyncAdapter
 from .model import ApplicationModel
 from .modelui import ApplicationModelUI

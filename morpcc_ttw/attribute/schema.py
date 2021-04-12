@@ -8,13 +8,13 @@ from deform.widget import (
     Select2Widget,
     SelectWidget,
 )
+from morpcc.deform.referencewidget import ReferenceWidget
+from morpcc.deform.vocabularywidget import VocabularyWidget
+from morpcc.validator.reference import ReferenceValidator
+from morpcc.validator.vocabulary import VocabularyValidator
 from morpfw import request
 from morpfw.validator.field import valid_identifier
 
-from ..deform.referencewidget import ReferenceWidget
-from ..deform.vocabularywidget import VocabularyWidget
-from ..validator.reference import ReferenceValidator
-from ..validator.vocabulary import VocabularyValidator
 from .form_validator import (
     required_if_primary_key,
     unique_attribute,

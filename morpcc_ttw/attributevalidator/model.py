@@ -1,8 +1,8 @@
 import morpfw
+from morpcc.restrictedpython import get_restricted_function
 from RestrictedPython import compile_restricted
 
 from .. import log
-from ..restrictedpython import get_restricted_function
 from .modelui import AttributeValidatorCollectionUI, AttributeValidatorModelUI
 from .schema import AttributeValidatorSchema
 

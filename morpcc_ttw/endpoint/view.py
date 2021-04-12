@@ -5,6 +5,7 @@ import rulez
 from morpcc.crud.view.edit import edit as default_edit
 from morpcc.crud.view.listing import listing as default_listing
 from morpcc.crud.view.view import view as default_view
+from morpcc.restrictedpython import get_restricted_function
 from morpfw.crud import permission as crudperm
 from morpfw.crud.errors import ValidationError
 from RestrictedPython import compile_restricted
@@ -12,7 +13,6 @@ from webob.exc import HTTPNotFound
 
 from ..app import App
 from ..endpointhandler.schema import ALLOWED_METHODS
-from ..restrictedpython import get_restricted_function
 from .model import EndpointCollectionUI, EndpointModel, NamedEndpointModel
 from .modelui import EndpointModelUI
 from .restrictedcontext import RestrictedContext, RestrictedRequest

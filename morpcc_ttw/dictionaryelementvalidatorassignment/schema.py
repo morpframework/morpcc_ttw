@@ -2,9 +2,9 @@ import typing
 from dataclasses import dataclass, field
 
 import morpfw
+from morpcc.deform.referencewidget import ReferenceWidget
+from morpcc.validator.reference import ReferenceValidator
 
-from ..deform.referencewidget import ReferenceWidget
-from ..validator.reference import ReferenceValidator
 from .form_validator import valid_assignment
 
 

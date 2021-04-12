@@ -3,13 +3,13 @@ from dataclasses import field, make_dataclass
 
 import morpfw
 import rulez
+from morpcc.deform.referencewidget import ReferenceWidget
+from morpcc.validator.reference import ReferenceValidator
 from morpfw.crud.storage.pgsqlstorage import PgSQLStorage
 from sqlalchemy import MetaData
 
 from ..deform.refdatawidget import ReferenceDataWidget
-from ..deform.referencewidget import ReferenceWidget
 from ..entitycontent.relationship import BackReference, Reference
-from ..validator.reference import ReferenceValidator
 from .modelui import EntityCollectionUI, EntityModelUI
 from .schema import EntitySchema
 

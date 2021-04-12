@@ -3,10 +3,9 @@ from dataclasses import dataclass, field
 
 import morpfw
 from deform.widget import SelectWidget
-
-from ..deform.codewidget import CodeWidget
-from ..deform.referencewidget import ReferenceWidget
-from ..validator.reference import ReferenceValidator
+from morpcc.deform.codewidget import CodeWidget
+from morpcc.deform.referencewidget import ReferenceWidget
+from morpcc.validator.reference import ReferenceValidator
 
 ALLOWED_METHODS: list = ["GET", "POST", "PATCH", "DELETE"]
 

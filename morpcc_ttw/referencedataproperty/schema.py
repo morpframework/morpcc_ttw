@@ -3,9 +3,8 @@ from dataclasses import dataclass, field
 
 import morpfw
 from deform.widget import SelectWidget
-
-from ..deform.referencewidget import ReferenceWidget
-from ..validator.reference import ReferenceValidator
+from morpcc.deform.referencewidget import ReferenceWidget
+from morpcc.validator.reference import ReferenceValidator
 
 PROPERTY_TYPES = [("label", "Label"), ("description", "Description")]
 

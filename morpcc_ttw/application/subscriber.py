@@ -1,11 +1,14 @@
 import morpfw
 import morpfw.crud.signals as signals
 import rulez
-from morpcc.navigator import Navigator
+from morpcc_ttw.navigator import Navigator
 
 from ..app import App
-from ..entitycontent.model import (EntityContentCollection, EntityContentModel,
-                                   content_collection_factory)
+from ..entitycontent.model import (
+    EntityContentCollection,
+    EntityContentModel,
+    content_collection_factory,
+)
 from .model import ApplicationModel
 
 

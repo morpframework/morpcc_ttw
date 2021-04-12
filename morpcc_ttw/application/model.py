@@ -3,12 +3,12 @@ from dataclasses import field, make_dataclass
 
 import morpfw
 import rulez
+from morpcc.index.model import IndexContentCollection, IndexContentModel
 from morpfw.crud import signals
 from morpfw.crud.storage.pgsqlstorage import PgSQLStorage
 from sqlalchemy import DDL, MetaData
 
 from ..entitycontent.path import content_collection_factory
-from ..index.model import IndexContentCollection, IndexContentModel
 from .modelui import (
     ApplicationCollectionUI,
     ApplicationModelUI,

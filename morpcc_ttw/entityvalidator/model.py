@@ -1,12 +1,11 @@
-from RestrictedPython import compile_restricted
-
 import morpfw
 from morpcc.crud.model import CollectionUI, ModelUI
+from morpcc.restrictedpython import get_restricted_function
 from morpfw.crud.model import Collection, Model
+from RestrictedPython import compile_restricted
 
 from ..entitycontent.model import EntityContentCollection, EntityContentModel
 from ..entitycontent.modelui import EntityContentCollectionUI, EntityContentModelUI
-from ..restrictedpython import get_restricted_function
 from .modelui import EntityValidatorCollectionUI, EntityValidatorModelUI
 from .schema import EntityValidatorSchema
 

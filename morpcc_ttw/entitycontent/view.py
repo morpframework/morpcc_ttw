@@ -4,15 +4,15 @@ import colander
 import deform
 import rulez
 from inverter import dc2colander
+from morpcc.crud.view.edit import edit as default_edit
+from morpcc.crud.view.listing import datatable_search
+from morpcc.crud.view.listing import listing as default_listing
+from morpcc.crud.view.view import view as default_view
+from morpcc.util import validate_form
 from morpfw.crud import permission as crudperm
 
 from ..app import App
 from ..application.model import ApplicationModel
-from ..crud.view.edit import edit as default_edit
-from ..crud.view.listing import datatable_search
-from ..crud.view.listing import listing as default_listing
-from ..crud.view.view import view as default_view
-from ..util import validate_form
 from ..validator.refdata import ReferenceDataValidator
 from .model import content_collection_factory
 from .modelui import EntityContentCollectionUI, EntityContentModelUI

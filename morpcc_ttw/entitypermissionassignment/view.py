@@ -3,20 +3,17 @@ from urllib.parse import quote as urlquote
 from morpcc.crud.view.edit import edit as default_edit
 from morpcc.crud.view.listing import listing as default_listing
 from morpcc.crud.view.view import view as default_view
+#
+from morpcc.permission import ManagePermission
 from morpfw.crud import permission as crudperm
 
 from ..app import App
 from ..entitycontent.modelui import EntityContentCollectionUI
-
+from .model import (EntityPermissionAssignmentCollection,
+                    EntityPermissionAssignmentModel)
 #
-from ..permission import ManagePermission
-from .model import EntityPermissionAssignmentCollection, EntityPermissionAssignmentModel
-
-#
-from .modelui import (
-    EntityPermissionAssignmentCollectionUI,
-    EntityPermissionAssignmentModelUI,
-)
+from .modelui import (EntityPermissionAssignmentCollectionUI,
+                      EntityPermissionAssignmentModelUI)
 
 
 @App.html(
