@@ -10,9 +10,9 @@ configuration:
   morpfw.authn.policy: morpcc.app:AuthnPolicy
 
 
-  morpfw.storage.sqlstorage.dburi: 'postgresql://postgres:postgres@localhost:5432/morpcc_ttw'
-  morpfw.storage.sqlstorage.dburi.warehouse: 'postgresql://postgres:postgres@localhost:5432/morpcc_ttw_warehouse'
-  morpfw.blobstorage.uri: 'fsblob://%(here)s/blobstorage'
+  morpfw.storage.sqlstorage.dburl: 'postgresql://postgres:postgres@localhost:5432/morpcc_ttw'
+  morpfw.storage.sqlstorage.dburl.warehouse: 'postgresql://postgres:postgres@localhost:5432/morpcc_ttw_warehouse'
+  morpfw.blobstorage.url: 'fsblob://%(here)s/blobstorage'
   # generate new key using 
   # from cryptography.fernet import Fernet
   # print(Fernet.generate_key().decode('utf8'))
