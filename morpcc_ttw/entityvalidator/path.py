@@ -18,12 +18,12 @@ def get_model(request, identifier):
     return col.get(identifier)
 
 
-@App.path(model=EntityValidatorCollection, path="/api/v1/entityvalidator")
+@App.path(model=EntityValidatorCollection, path="/api/ttw.entityvalidator")
 def _get_collection(request):
     return get_collection(request)
 
 
-@App.path(model=EntityValidatorModel, path="/api/v1/entityvalidator/{identifier}")
+@App.path(model=EntityValidatorModel, path="/api/ttw.entityvalidator/{identifier}")
 def _get_model(request, identifier):
     return get_model(request, identifier)
 
@@ -31,14 +31,14 @@ def _get_model(request, identifier):
 #
 
 
-@App.path(model=EntityValidatorCollectionUI, path="/entityvalidator")
+@App.path(model=EntityValidatorCollectionUI, path="/ttw.entityvalidator")
 def _get_collection_ui(request):
     collection = get_collection(request)
     if collection:
         return collection.ui()
 
 
-@App.path(model=EntityValidatorModelUI, path="/entityvalidator/{identifier}")
+@App.path(model=EntityValidatorModelUI, path="/ttw.entityvalidator/{identifier}")
 def _get_model_ui(request, identifier):
     model = get_model(request, identifier)
     if model:

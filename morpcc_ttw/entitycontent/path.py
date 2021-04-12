@@ -17,7 +17,7 @@ def get_content_collection(
 
 @App.path(
     model=EntityContentCollection,
-    path="/api/v1/application/{identifier}/entity/{entityidentifier}/records",
+    path="/api/ttw.application/{identifier}/entity/{entityidentifier}/records",
     variables=lambda obj: {
         "identifier": obj.__application__.identifier,
         "entityidentifier": obj.__parent__.identifier,
@@ -29,7 +29,7 @@ def _get_collection(request, identifier, entityidentifier):
 
 @App.path(
     model=EntityContentModel,
-    path="/api/v1/application/{identifier}/entity/{entityidentifier}/records/{recordidentifier}",
+    path="/api/ttw.application/{identifier}/entity/{entityidentifier}/records/{recordidentifier}",
     variables=lambda obj: {
         "identifier": obj.collection.__application__.identifier,
         "entityidentifier": obj.collection.__parent__.identifier,
@@ -43,7 +43,7 @@ def _get_content_model(request, identifier, entityidentifier, recordidentifier):
 
 @App.path(
     model=EntityContentCollectionUI,
-    path="/application/{identifier}/entity/{entityidentifier}/records/",
+    path="/ttw.application/{identifier}/entity/{entityidentifier}/records/",
     variables=lambda obj: {
         "identifier": obj.collection.__application__.identifier,
         "entityidentifier": obj.collection.__parent__.identifier,
@@ -56,7 +56,7 @@ def get_model_content_collection_ui(request, identifier, entityidentifier):
 
 @App.path(
     model=EntityContentModelUI,
-    path="/application/{identifier}/entity/{entityidentifier}/records/{recordidentifier}",
+    path="/ttw.application/{identifier}/entity/{entityidentifier}/records/{recordidentifier}",
     variables=lambda obj: {
         "identifier": obj.collection_ui.collection.__application__.identifier,
         "entityidentifier": obj.collection_ui.collection.__parent__.identifier,

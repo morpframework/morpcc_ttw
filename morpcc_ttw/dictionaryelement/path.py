@@ -18,24 +18,24 @@ def get_model(request, identifier):
     return col.get(identifier)
 
 
-@App.path(model=DictionaryElementCollection, path="/api/v1/dictionaryelement")
+@App.path(model=DictionaryElementCollection, path="/api/ttw.dictionaryelement")
 def _get_collection(request):
     return get_collection(request)
 
 
-@App.path(model=DictionaryElementModel, path="/api/v1/dictionaryelement/{identifier}")
+@App.path(model=DictionaryElementModel, path="/api/ttw.dictionaryelement/{identifier}")
 def _get_model(request, identifier):
     return get_model(request, identifier)
 
 
-@App.path(model=DictionaryElementCollectionUI, path="/dictionaryelement")
+@App.path(model=DictionaryElementCollectionUI, path="/ttw.dictionaryelement")
 def _get_collection_ui(request):
     collection = get_collection(request)
     if collection:
         return collection.ui()
 
 
-@App.path(model=DictionaryElementModelUI, path="/dictionaryelement/{identifier}")
+@App.path(model=DictionaryElementModelUI, path="/ttw.dictionaryelement/{identifier}")
 def _get_model_ui(request, identifier):
     model = get_model(request, identifier)
     if model:

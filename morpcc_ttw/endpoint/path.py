@@ -39,34 +39,34 @@ def get_named_model(request, identifier):
     return None
 
 
-@App.path(model=EndpointCollection, path="/api/v1/endpoint")
+@App.path(model=EndpointCollection, path="/api/ttw.endpoint")
 def _get_collection(request):
     return get_collection(request)
 
 
-@App.path(model=EndpointModel, path="/api/v1/endpoint/{identifier}")
+@App.path(model=EndpointModel, path="/api/ttw.endpoint/{identifier}")
 def _get_model(request, identifier):
     return get_model(request, identifier)
 
 
-@App.path(model=NamedEndpointCollection, path="/api/v1/endpoint/by_name/")
+@App.path(model=NamedEndpointCollection, path="/api/ttw.endpoint/by_name/")
 def _get_named_collection(request):
     return get_named_collection(request)
 
 
-@App.path(model=NamedEndpointModel, path="/api/v1/endpoint/by_name/{identifier}")
+@App.path(model=NamedEndpointModel, path="/api/ttw.endpoint/by_name/{identifier}")
 def _get_named_model(request, identifier):
     return get_named_model(request, identifier)
 
 
-@App.path(model=EndpointCollectionUI, path="/endpoint")
+@App.path(model=EndpointCollectionUI, path="/ttw.endpoint")
 def _get_collection_ui(request):
     collection = get_collection(request)
     if collection:
         return collection.ui()
 
 
-@App.path(model=EndpointModelUI, path="/endpoint/{identifier}")
+@App.path(model=EndpointModelUI, path="/ttw.endpoint/{identifier}")
 def _get_model_ui(request, identifier):
     model = get_model(request, identifier)
     if model:

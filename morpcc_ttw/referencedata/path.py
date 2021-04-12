@@ -20,24 +20,24 @@ def get_model(request, identifier):
     return col.get(identifier)
 
 
-@App.path(model=ReferenceDataCollection, path="/api/v1/referencedata")
+@App.path(model=ReferenceDataCollection, path="/api/ttw.referencedata")
 def _get_collection(request):
     return get_collection(request)
 
 
-@App.path(model=ReferenceDataModel, path="/api/v1/referencedata/{identifier}")
+@App.path(model=ReferenceDataModel, path="/api/ttw.referencedata/{identifier}")
 def _get_model(request, identifier):
     return get_model(request, identifier)
 
 
-@App.path(model=ReferenceDataCollectionUI, path="/referencedata")
+@App.path(model=ReferenceDataCollectionUI, path="/ttw.referencedata")
 def _get_collection_ui(request):
     collection = get_collection(request)
     if collection:
         return collection.ui()
 
 
-@App.path(model=ReferenceDataModelUI, path="/referencedata/{identifier}")
+@App.path(model=ReferenceDataModelUI, path="/ttw.referencedata/{identifier}")
 def _get_model_ui(request, identifier):
     model = get_model(request, identifier)
     if model:

@@ -18,24 +18,26 @@ def get_model(request, identifier):
     return col.get(identifier)
 
 
-@App.path(model=AttributeValidatorCollection, path="/api/v1/attributevalidator")
+@App.path(model=AttributeValidatorCollection, path="/api/ttw.attributevalidator")
 def _get_collection(request):
     return get_collection(request)
 
 
-@App.path(model=AttributeValidatorModel, path="/api/v1/attributevalidator/{identifier}")
+@App.path(
+    model=AttributeValidatorModel, path="/api/ttw.attributevalidator/{identifier}"
+)
 def _get_model(request, identifier):
     return get_model(request, identifier)
 
 
-@App.path(model=AttributeValidatorCollectionUI, path="/attributevalidator")
+@App.path(model=AttributeValidatorCollectionUI, path="/ttw.attributevalidator")
 def _get_collection_ui(request):
     collection = get_collection(request)
     if collection:
         return collection.ui()
 
 
-@App.path(model=AttributeValidatorModelUI, path="/attributevalidator/{identifier}")
+@App.path(model=AttributeValidatorModelUI, path="/ttw.attributevalidator/{identifier}")
 def _get_model_ui(request, identifier):
     model = get_model(request, identifier)
     if model:

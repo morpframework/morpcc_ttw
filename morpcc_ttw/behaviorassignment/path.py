@@ -18,24 +18,26 @@ def get_model(request, identifier):
     return col.get(identifier)
 
 
-@App.path(model=BehaviorAssignmentCollection, path="/api/v1/behaviorassignment")
+@App.path(model=BehaviorAssignmentCollection, path="/api/ttw.behaviorassignment")
 def _get_collection(request):
     return get_collection(request)
 
 
-@App.path(model=BehaviorAssignmentModel, path="/api/v1/behaviorassignment/{identifier}")
+@App.path(
+    model=BehaviorAssignmentModel, path="/api/ttw.behaviorassignment/{identifier}"
+)
 def _get_model(request, identifier):
     return get_model(request, identifier)
 
 
-@App.path(model=BehaviorAssignmentCollectionUI, path="/behaviorassignment")
+@App.path(model=BehaviorAssignmentCollectionUI, path="/ttw.behaviorassignment")
 def _get_collection_ui(request):
     collection = get_collection(request)
     if collection:
         return collection.ui()
 
 
-@App.path(model=BehaviorAssignmentModelUI, path="/behaviorassignment/{identifier}")
+@App.path(model=BehaviorAssignmentModelUI, path="/ttw.behaviorassignment/{identifier}")
 def _get_model_ui(request, identifier):
     model = get_model(request, identifier)
     if model:

@@ -18,24 +18,24 @@ def get_model(request, identifier):
     return col.get(identifier)
 
 
-@App.path(model=ApplicationCollection, path="/api/v1/application")
+@App.path(model=ApplicationCollection, path="/api/ttw.application")
 def _get_collection(request):
     return get_collection(request)
 
 
-@App.path(model=ApplicationModel, path="/api/v1/application/{identifier}")
+@App.path(model=ApplicationModel, path="/api/ttw.application/{identifier}")
 def _get_model(request, identifier):
     return get_model(request, identifier)
 
 
-@App.path(model=ApplicationCollectionUI, path="/application")
+@App.path(model=ApplicationCollectionUI, path="/ttw.application")
 def _get_collection_ui(request):
     collection = get_collection(request)
     if collection:
         return collection.ui()
 
 
-@App.path(model=ApplicationModelUI, path="/application/{identifier}")
+@App.path(model=ApplicationModelUI, path="/ttw.application/{identifier}")
 def _get_model_ui(request, identifier):
     model = get_model(request, identifier)
     if model:

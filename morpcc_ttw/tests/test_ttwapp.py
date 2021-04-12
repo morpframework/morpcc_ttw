@@ -34,7 +34,7 @@ def test_app(pgsql_db, pgsql_db_warehouse, pgsql_db_cache):
     create_admin(c.mfw_request, "admin", "password", "admin@localhost.local")
 
     r = c.post(
-        "/application/+create",
+        "/ttw.application/+create",
         {
             "__formid__": "deform",
             "name": "test_app",
@@ -52,7 +52,7 @@ def test_app(pgsql_db, pgsql_db_warehouse, pgsql_db_cache):
     # create entity
 
     r = c.post(
-        "/entity/+create",
+        "/ttw.entity/+create",
         {
             "__formid__": "deform",
             "name": "person",
@@ -69,7 +69,7 @@ def test_app(pgsql_db, pgsql_db_warehouse, pgsql_db_cache):
 
     # create attribute
     r = c.post(
-        "/attribute/+create",
+        "/ttw.attribute/+create",
         {
             "__formid__": "deform",
             "name": "personid",
@@ -88,7 +88,7 @@ def test_app(pgsql_db, pgsql_db_warehouse, pgsql_db_cache):
     assert follow(r).status_code == 200
 
     r = c.post(
-        "/attribute/+create",
+        "/ttw.attribute/+create",
         {
             "__formid__": "deform",
             "name": "full_name",
@@ -107,7 +107,7 @@ def test_app(pgsql_db, pgsql_db_warehouse, pgsql_db_cache):
     assert follow(r).status_code == 200
 
     r = c.post(
-        "/behaviorassignment/+create",
+        "/ttw.behaviorassignment/+create",
         {
             "__formid__": "deform",
             "behavior": "morpcc.titled_document",
@@ -120,7 +120,7 @@ def test_app(pgsql_db, pgsql_db_warehouse, pgsql_db_cache):
     assert follow(r).status_code == 200
 
     r = c.post(
-        "/entity/+create",
+        "/ttw.entity/+create",
         {
             "__formid__": "deform",
             "name": "address",
@@ -137,7 +137,7 @@ def test_app(pgsql_db, pgsql_db_warehouse, pgsql_db_cache):
     assert follow(r).status_code == 200
 
     r = c.post(
-        "/attribute/+create",
+        "/ttw.attribute/+create",
         {
             "__formid__": "deform",
             "name": "address",
@@ -152,7 +152,7 @@ def test_app(pgsql_db, pgsql_db_warehouse, pgsql_db_cache):
     assert follow(r).status_code == 200
 
     r = c.post(
-        "/relationship/+create",
+        "/ttw.relationship/+create",
         {
             "__formid__": "deform",
             "name": "personid",
@@ -170,7 +170,7 @@ def test_app(pgsql_db, pgsql_db_warehouse, pgsql_db_cache):
     assert follow(r).status_code == 200
 
     r = c.post(
-        "/backrelationship/+create",
+        "/ttw.backrelationship/+create",
         {
             "__formid__": "deform",
             "name": "addresses",

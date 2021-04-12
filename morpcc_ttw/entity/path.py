@@ -20,24 +20,24 @@ def get_model(request, identifier):
     return col.get(identifier)
 
 
-@App.path(model=EntityCollection, path="/api/v1/entity")
+@App.path(model=EntityCollection, path="/api/ttw.entity")
 def _get_collection(request):
     return get_collection(request)
 
 
-@App.path(model=EntityModel, path="/api/v1/entity/{identifier}")
+@App.path(model=EntityModel, path="/api/ttw.entity/{identifier}")
 def _get_model(request, identifier):
     return get_model(request, identifier)
 
 
-@App.path(model=EntityCollectionUI, path="/entity")
+@App.path(model=EntityCollectionUI, path="/ttw.entity")
 def _get_collection_ui(request):
     collection = get_collection(request)
     if collection:
         return collection.ui()
 
 
-@App.path(model=EntityModelUI, path="/entity/{identifier}")
+@App.path(model=EntityModelUI, path="/ttw.entity/{identifier}")
 def _get_model_ui(request, identifier):
     model = get_model(request, identifier)
     if model:

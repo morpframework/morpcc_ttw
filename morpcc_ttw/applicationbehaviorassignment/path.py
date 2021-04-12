@@ -26,7 +26,7 @@ def get_model(request, identifier):
 
 @App.path(
     model=ApplicationBehaviorAssignmentCollection,
-    path="/api/v1/applicationbehaviorassignment",
+    path="/api/ttw.applicationbehaviorassignment",
 )
 def _get_collection(request):
     return get_collection(request)
@@ -34,7 +34,7 @@ def _get_collection(request):
 
 @App.path(
     model=ApplicationBehaviorAssignmentModel,
-    path="/api/v1/applicationbehaviorassignment/{identifier}",
+    path="/api/ttw.applicationbehaviorassignment/{identifier}",
 )
 def _get_model(request, identifier):
     return get_model(request, identifier)
@@ -42,7 +42,7 @@ def _get_model(request, identifier):
 
 @App.path(
     model=ApplicationBehaviorAssignmentCollectionUI,
-    path="/applicationbehaviorassignment",
+    path="/ttw.applicationbehaviorassignment",
 )
 def _get_collection_ui(request):
     collection = get_collection(request)
@@ -52,7 +52,7 @@ def _get_collection_ui(request):
 
 @App.path(
     model=ApplicationBehaviorAssignmentModelUI,
-    path="/applicationbehaviorassignment/{identifier}",
+    path="/ttw.applicationbehaviorassignment/{identifier}",
 )
 def _get_model_ui(request, identifier):
     model = get_model(request, identifier)

@@ -22,7 +22,7 @@ def get_model(request, identifier):
 
 
 @App.path(
-    model=EntityValidatorAssignmentCollection, path="/api/v1/entityvalidatorassignment"
+    model=EntityValidatorAssignmentCollection, path="/api/ttw.entityvalidatorassignment"
 )
 def _get_collection(request):
     return get_collection(request)
@@ -30,7 +30,7 @@ def _get_collection(request):
 
 @App.path(
     model=EntityValidatorAssignmentModel,
-    path="/api/v1/entityvalidatorassignment/{identifier}",
+    path="/api/ttw.entityvalidatorassignment/{identifier}",
 )
 def _get_model(request, identifier):
     return get_model(request, identifier)
@@ -40,7 +40,7 @@ def _get_model(request, identifier):
 
 
 @App.path(
-    model=EntityValidatorAssignmentCollectionUI, path="/entityvalidatorassignment"
+    model=EntityValidatorAssignmentCollectionUI, path="/ttw.entityvalidatorassignment"
 )
 def _get_collection_ui(request):
     collection = get_collection(request)
@@ -50,7 +50,7 @@ def _get_collection_ui(request):
 
 @App.path(
     model=EntityValidatorAssignmentModelUI,
-    path="/entityvalidatorassignment/{identifier}",
+    path="/ttw.entityvalidatorassignment/{identifier}",
 )
 def _get_model_ui(request, identifier):
     model = get_model(request, identifier)

@@ -18,28 +18,29 @@ def get_model(request, identifier):
     return col.get(identifier)
 
 
-@App.path(model=BackRelationshipCollection, path="/api/v1/backrelationship")
+@App.path(model=BackRelationshipCollection, path="/api/ttw.backrelationship")
 def _get_collection(request):
     return get_collection(request)
 
 
-@App.path(model=BackRelationshipModel, path="/api/v1/backrelationship/{identifier}")
+@App.path(model=BackRelationshipModel, path="/api/ttw.backrelationship/{identifier}")
 def _get_model(request, identifier):
     return get_model(request, identifier)
 
 
-@App.path(model=BackRelationshipCollectionUI, path="/backrelationship")
+@App.path(model=BackRelationshipCollectionUI, path="/ttw.backrelationship")
 def _get_collection_ui(request):
     collection = get_collection(request)
     if collection:
         return collection.ui()
 
 
-@App.path(model=BackRelationshipModelUI, path="/backrelationship/{identifier}")
+@App.path(model=BackRelationshipModelUI, path="/ttw.backrelationship/{identifier}")
 def _get_model_ui(request, identifier):
     model = get_model(request, identifier)
     if model:
         return model.ui()
+
 
 #
 

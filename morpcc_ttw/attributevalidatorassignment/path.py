@@ -26,7 +26,7 @@ def get_model(request, identifier):
 
 @App.path(
     model=AttributeValidatorAssignmentCollection,
-    path="/api/v1/attributevalidatorassignment",
+    path="/api/ttw.attributevalidatorassignment",
 )
 def _get_collection(request):
     return get_collection(request)
@@ -34,7 +34,7 @@ def _get_collection(request):
 
 @App.path(
     model=AttributeValidatorAssignmentModel,
-    path="/api/v1/attributevalidatorassignment/{identifier}",
+    path="/api/ttw.attributevalidatorassignment/{identifier}",
 )
 def _get_model(request, identifier):
     return get_model(request, identifier)
@@ -44,7 +44,8 @@ def _get_model(request, identifier):
 
 
 @App.path(
-    model=AttributeValidatorAssignmentCollectionUI, path="/attributevalidatorassignment"
+    model=AttributeValidatorAssignmentCollectionUI,
+    path="/ttw.attributevalidatorassignment",
 )
 def _get_collection_ui(request):
     collection = get_collection(request)
@@ -54,12 +55,13 @@ def _get_collection_ui(request):
 
 @App.path(
     model=AttributeValidatorAssignmentModelUI,
-    path="/attributevalidatorassignment/{identifier}",
+    path="/ttw.attributevalidatorassignment/{identifier}",
 )
 def _get_model_ui(request, identifier):
     model = get_model(request, identifier)
     if model:
         return model.ui()
+
 
 #
 

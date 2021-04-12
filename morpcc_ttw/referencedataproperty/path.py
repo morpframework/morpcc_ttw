@@ -18,13 +18,13 @@ def get_model(request, identifier):
     return col.get(identifier)
 
 
-@App.path(model=ReferenceDataPropertyCollection, path="/api/v1/referencedataproperty")
+@App.path(model=ReferenceDataPropertyCollection, path="/api/ttw.referencedataproperty")
 def _get_collection(request):
     return get_collection(request)
 
 
 @App.path(
-    model=ReferenceDataPropertyModel, path="/api/v1/referencedataproperty/{identifier}"
+    model=ReferenceDataPropertyModel, path="/api/ttw.referencedataproperty/{identifier}"
 )
 def _get_model(request, identifier):
     return get_model(request, identifier)
@@ -33,7 +33,7 @@ def _get_model(request, identifier):
 #
 
 
-@App.path(model=ReferenceDataPropertyCollectionUI, path="/referencedataproperty")
+@App.path(model=ReferenceDataPropertyCollectionUI, path="/ttw.referencedataproperty")
 def _get_collection_ui(request):
     collection = get_collection(request)
     if collection:
@@ -41,7 +41,7 @@ def _get_collection_ui(request):
 
 
 @App.path(
-    model=ReferenceDataPropertyModelUI, path="/referencedataproperty/{identifier}"
+    model=ReferenceDataPropertyModelUI, path="/ttw.referencedataproperty/{identifier}"
 )
 def _get_model_ui(request, identifier):
     model = get_model(request, identifier)
