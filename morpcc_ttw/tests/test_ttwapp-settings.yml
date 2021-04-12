@@ -1,0 +1,20 @@
+
+configuration:
+  morpfw.scan:
+    - morpfw
+    - morpcc
+    - morpcc_ttw
+ 
+  morpfw.authn.policy: morpcc.app:AuthnPolicy
+
+  morpfw.storage.sqlstorage.dburl: 'postgresql://postgres@localhost:45678/morpcc_tests'
+  morpfw.blobstorage.url: 'fsblob://tmp/morpcc_blobstorage'
+
+  morpfw.beaker.session.type: memory
+  morpfw.beaker.cache.type: memory
+
+application:
+  title: morpcc TTW
+  class: morpcc_ttw.tests.test_ttwapp:App
+  factory: morpcc.app:create_morpcc_app
+  development_mode: true

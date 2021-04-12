@@ -1,10 +1,38 @@
-from morpcc.tests.democms_common import follow, get_democms_client
+import os
+
+import morepath
+import morpcc
+import morpcc_ttw
+import morpfw
+import morpfw.sql
+import pytest
+from morpcc_ttw.app import App as TTWApp
+from morpfw.tests.common import create_admin, get_client, make_request
 
 
+def follow(resp):
+    while resp.status_code == 302:
+        resp = resp.follow()
+
+    return resp
+
+
+class App(TTWApp):
+    pass
+
+
+@pytest.mark.filterwarnings("ignore:")
 def test_app(pgsql_db, pgsql_db_warehouse, pgsql_db_cache):
 
-    # test application creation
-    c = get_democms_client()
+    settings_file = os.path.join(os.path.dirname(__file__), "test_ttwapp-settings.yml")
+    morepath.scan(morpfw)
+    morepath.scan(morpcc)
+    morepath.scan(morpcc_ttw)
+    c = get_client(config=settings_file)
+
+    morpfw.sql.Base.metadata.create_all(bind=c.mfw_request.db_session.bind)
+    create_admin(c.mfw_request, "admin", "password", "admin@localhost.local")
+
     r = c.post(
         "/application/+create",
         {
