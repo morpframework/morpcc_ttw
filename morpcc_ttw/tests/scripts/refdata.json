@@ -1,0 +1,608 @@
+{"code":"15","field":"nature_of_business","value":"money services businesses"}
+{"code":"16","field":"nature_of_business","value":"others"}
+{"code":"17","field":"nature_of_business","value":"pharmaceuticals"}
+{"code":"18","field":"nature_of_business","value":"professional services (eg attorneys / accountants / doctors / real estate brokers)"}
+{"code":"19","field":"nature_of_business","value":"retail (grocery shop / convenience store)"}
+{"code":"2","field":"nature_of_business","value":"agriculture / fisheries & livestock"}
+{"code":"20","field":"nature_of_business","value":"telecommunications services"}
+{"code":"21","field":"nature_of_business","value":"trading"}
+{"code":"22","field":"nature_of_business","value":"travel agencies"}
+{"code":"23","field":"nature_of_business","value":"utility services"}
+{"code":"24","field":"nature_of_business","value":"wholesale"}
+{"code":"3","field":"nature_of_business","value":"airline industry"}
+{"code":"4","field":"nature_of_business","value":"computer/ electronics"}
+{"code":"5","field":"nature_of_business","value":"construction industry"}
+{"code":"6","field":"nature_of_business","value":"education (includes students) /training"}
+{"code":"7","field":"nature_of_business","value":"engineering"}
+{"code":"8","field":"nature_of_business","value":"entertainment (pubs / karaoke lounges / restaurant)"}
+{"code":"9","field":"nature_of_business","value":"event management"}
+{"code":"0","field":"peps","value":"yes"}
+{"code":"1","field":"peps","value":"no"}
+{"code":"0","field":"race","value":"bumiputra sabah"}
+{"code":"1","field":"race","value":"other (bumiputra)"}
+{"code":"2","field":"race","value":"other (non bumiputra)"}
+{"code":"3","field":"race","value":"bumiputra sarawak"}
+{"code":"4","field":"race","value":"chinese"}
+{"code":"UG","field":"nationality","value":"Uganda"}
+{"code":"UM","field":"nationality","value":"United States Minor Outlying Islands (the)"}
+{"code":"US","field":"nationality","value":"United States Of America (The)"}
+{"code":"UY","field":"nationality","value":"Uruguay"}
+{"code":"UZ","field":"nationality","value":"Uzbekistan"}
+{"code":"VA","field":"nationality","value":"Holy See (The)"}
+{"code":"VC","field":"nationality","value":"Saint Vincent And The Grenadines"}
+{"code":"VE","field":"nationality","value":"Venezuela (Bolivarian Republic Of)"}
+{"code":"VG","field":"nationality","value":"Virgin Islands (British)"}
+{"code":"VI","field":"nationality","value":"Virgin Islands (U.S.)"}
+{"code":"VN","field":"nationality","value":"Viet Nam"}
+{"code":"VU","field":"nationality","value":"Vanuatu"}
+{"code":"WF","field":"nationality","value":"Wallis And Futuna"}
+{"code":"WS","field":"nationality","value":"Samoa"}
+{"code":"YE","field":"nationality","value":"Yemen"}
+{"code":"YT","field":"nationality","value":"Mayotte"}
+{"code":"ZA","field":"nationality","value":"South Africa"}
+{"code":"ZM","field":"nationality","value":"Zambia"}
+{"code":"ZW","field":"nationality","value":"Zimbabwe"}
+{"code":"0","field":"nature_of_business","value":"accommodation premises/hospitality (eg hotels / inns / rest houses"}
+{"code":"1","field":"nature_of_business","value":"advertising services (creative / graphics)"}
+{"code":"10","field":"nature_of_business","value":"finance /banking /insurance"}
+{"code":"11","field":"nature_of_business","value":"freight /shipping/transportation"}
+{"code":"12","field":"nature_of_business","value":"investment"}
+{"code":"13","field":"nature_of_business","value":"manufacturing"}
+{"code":"14","field":"nature_of_business","value":"medical /health services"}
+{"code":"ER","field":"country","value":"Eritrea"}
+{"code":"ES","field":"country","value":"Spain"}
+{"code":"ET","field":"country","value":"Ethiopia"}
+{"code":"FI","field":"country","value":"Finland"}
+{"code":"FJ","field":"country","value":"Fiji"}
+{"code":"FK","field":"country","value":"Falkland Islands (the) [Malvinas]"}
+{"code":"FM","field":"country","value":"Micronesia (Federated States Of)"}
+{"code":"FO","field":"country","value":"Faroe Islands (the)"}
+{"code":"FR","field":"country","value":"France"}
+{"code":"GA","field":"country","value":"Gabon"}
+{"code":"GB","field":"country","value":"United Kingdom Of Great Britain And Northern Ireland (The)"}
+{"code":"GD","field":"country","value":"Grenada"}
+{"code":"GE","field":"country","value":"Georgia"}
+{"code":"GF","field":"country","value":"French Guiana"}
+{"code":"GG","field":"country","value":"Guernsey"}
+{"code":"GH","field":"country","value":"Ghana"}
+{"code":"GI","field":"country","value":"Gibraltar"}
+{"code":"GL","field":"country","value":"Greenland"}
+{"code":"GM","field":"country","value":"Gambia (The)"}
+{"code":"GN","field":"country","value":"Guinea"}
+{"code":"GP","field":"country","value":"Guadeloupe"}
+{"code":"GQ","field":"country","value":"Equatorial Guinea"}
+{"code":"GR","field":"country","value":"Greece"}
+{"code":"GS","field":"country","value":"South Georgia and the South Sandwich Islands"}
+{"code":"GT","field":"country","value":"Guatemala"}
+{"code":"GU","field":"country","value":"Guam"}
+{"code":"0","field":"address_type","value":"correspondence address"}
+{"code":"1","field":"address_type","value":"residential address"}
+{"code":"2","field":"address_type","value":"office address"}
+{"code":"0","field":"business_type","value":"soleproprietorship"}
+{"code":"1","field":"business_type","value":"privatelimitedcompany"}
+{"code":"2","field":"business_type","value":"publiclimitedcompany"}
+{"code":"3","field":"business_type","value":"partnership"}
+{"code":"0","field":"corporate_member_type","value":"authorized personnel"}
+{"code":"1","field":"corporate_member_type","value":"director"}
+{"code":"2","field":"corporate_member_type","value":"shareholder"}
+{"code":"AD","field":"country","value":"Andorra"}
+{"code":"AE","field":"country","value":"United Arab Emirates (The)"}
+{"code":"AF","field":"country","value":"Afghanistan"}
+{"code":"AG","field":"country","value":"Antigua And Barbuda"}
+{"code":"AI","field":"country","value":"Anguilla"}
+{"code":"AL","field":"country","value":"Albania"}
+{"code":"AM","field":"country","value":"Armenia"}
+{"code":"AO","field":"country","value":"Angola"}
+{"code":"AQ","field":"country","value":"Antarctica"}
+{"code":"AR","field":"country","value":"Argentina"}
+{"code":"AS","field":"country","value":"American Samoa"}
+{"code":"AT","field":"country","value":"Austria"}
+{"code":"AU","field":"country","value":"Australia"}
+{"code":"AW","field":"country","value":"Aruba"}
+{"code":"AX","field":"country","value":"Åland Islands"}
+{"code":"AZ","field":"country","value":"Azerbaijan"}
+{"code":"SA","field":"country","value":"Saudi Arabia"}
+{"code":"SB","field":"country","value":"Solomon Islands"}
+{"code":"SC","field":"country","value":"Seychelles"}
+{"code":"SD","field":"country","value":"Sudan (The)"}
+{"code":"SE","field":"country","value":"Sweden"}
+{"code":"SG","field":"country","value":"Singapore"}
+{"code":"SH","field":"country","value":"Saint Helena, Ascension And Tristan Da Cunha"}
+{"code":"SI","field":"country","value":"Slovenia"}
+{"code":"SJ","field":"country","value":"Svalbard And Jan Mayen"}
+{"code":"SK","field":"country","value":"Slovakia"}
+{"code":"SL","field":"country","value":"Sierra Leone"}
+{"code":"SM","field":"country","value":"San Marino"}
+{"code":"SN","field":"country","value":"Senegal"}
+{"code":"SO","field":"country","value":"Somalia"}
+{"code":"SR","field":"country","value":"Suriname"}
+{"code":"SS","field":"country","value":"South Sudan"}
+{"code":"ST","field":"country","value":"Sao Tome And Principe"}
+{"code":"SV","field":"country","value":"El Salvador"}
+{"code":"SX","field":"country","value":"Sint Maarten (Dutch part)"}
+{"code":"SY","field":"country","value":"Syrian Arab Republic (the)"}
+{"code":"SZ","field":"country","value":"Eswatini"}
+{"code":"TC","field":"country","value":"Turks and Caicos Islands (the)"}
+{"code":"TD","field":"country","value":"Chad"}
+{"code":"TF","field":"country","value":"French Southern Territories (The)"}
+{"code":"TG","field":"country","value":"Togo"}
+{"code":"TH","field":"country","value":"Thailand"}
+{"code":"19","field":"id_doc_type","value":"Driving License"}
+{"code":"2","field":"id_doc_type","value":"Police"}
+{"code":"20","field":"id_doc_type","value":"Green Card"}
+{"code":"21","field":"id_doc_type","value":"National ID"}
+{"code":"22","field":"id_doc_type","value":"Birth Certificate"}
+{"code":"23","field":"id_doc_type","value":"Voter ID"}
+{"code":"24","field":"id_doc_type","value":"Visa"}
+{"code":"25","field":"id_doc_type","value":"Foreign IC"}
+{"code":"26","field":"id_doc_type","value":"Seaman Book / Cruise Card"}
+{"code":"27","field":"id_doc_type","value":"Border Pass"}
+{"code":"28","field":"id_doc_type","value":"MyRC"}
+{"code":"3","field":"id_doc_type","value":"MyTentera"}
+{"code":"4","field":"id_doc_type","value":"MyKad"}
+{"code":"5","field":"id_doc_type","value":"MyKAS"}
+{"code":"6","field":"id_doc_type","value":"UNHCR"}
+{"code":"7","field":"id_doc_type","value":"Kartu Tanda Penduduk (KTP) Indonesia"}
+{"code":"8","field":"id_doc_type","value":"Overseas Worker Identification Card - MYANMAR"}
+{"code":"9","field":"id_doc_type","value":"Kartu Tenaga Kerja Luar Negeri - INDONESIA"}
+{"code":"0","field":"marital_status","value":"single"}
+{"code":"1","field":"marital_status","value":"married"}
+{"code":"2","field":"marital_status","value":"divorced"}
+{"code":"3","field":"marital_status","value":"other"}
+{"code":"AD","field":"nationality","value":"Andorra"}
+{"code":"AE","field":"nationality","value":"United Arab Emirates (The)"}
+{"code":"AF","field":"nationality","value":"Afghanistan"}
+{"code":"WS","field":"country","value":"Samoa"}
+{"code":"YE","field":"country","value":"Yemen"}
+{"code":"YT","field":"country","value":"Mayotte"}
+{"code":"ZA","field":"country","value":"South Africa"}
+{"code":"ZM","field":"country","value":"Zambia"}
+{"code":"ZW","field":"country","value":"Zimbabwe"}
+{"code":"0","field":"customer_status","value":"active"}
+{"code":"1","field":"customer_status","value":"inactive"}
+{"code":"2","field":"customer_status","value":"deactivated"}
+{"code":"0","field":"gender","value":"male"}
+{"code":"1","field":"gender","value":"female"}
+{"code":"0","field":"id_doc_category","value":"original"}
+{"code":"1","field":"id_doc_category","value":"photocopy"}
+{"code":"2","field":"id_doc_category","value":"ctc"}
+{"code":"0","field":"id_doc_type","value":"Others Identification Document"}
+{"code":"1","field":"id_doc_type","value":"Passport"}
+{"code":"10","field":"id_doc_type","value":"MyPR (Pemastautin Tetap)"}
+{"code":"11","field":"id_doc_type","value":"iKAD"}
+{"code":"12","field":"id_doc_type","value":"eKAD"}
+{"code":"13","field":"id_doc_type","value":"Surat Penempatan Ketua Menteri"}
+{"code":"14","field":"id_doc_type","value":"Community Card"}
+{"code":"15","field":"id_doc_type","value":"Indonesia Province Card"}
+{"code":"16","field":"id_doc_type","value":"Surat Perjalanan Sementara"}
+{"code":"17","field":"id_doc_type","value":"IM13 Documents"}
+{"code":"18","field":"id_doc_type","value":"Citizenship"}
+{"code":"IO","field":"nationality","value":"British Indian Ocean Territory (The)"}
+{"code":"IQ","field":"nationality","value":"Iraq"}
+{"code":"IR","field":"nationality","value":"Iran (Islamic Republic Of)"}
+{"code":"IS","field":"nationality","value":"Iceland"}
+{"code":"IT","field":"nationality","value":"Italy"}
+{"code":"JE","field":"nationality","value":"Jersey"}
+{"code":"JM","field":"nationality","value":"Jamaica"}
+{"code":"JO","field":"nationality","value":"Jordan"}
+{"code":"JP","field":"nationality","value":"Japan"}
+{"code":"KE","field":"nationality","value":"Kenya"}
+{"code":"KG","field":"nationality","value":"Kyrgyzstan"}
+{"code":"KH","field":"nationality","value":"Cambodia"}
+{"code":"KI","field":"nationality","value":"Kiribati"}
+{"code":"KM","field":"nationality","value":"Comoros (The)"}
+{"code":"KN","field":"nationality","value":"Saint Kitts And Nevis"}
+{"code":"KP","field":"nationality","value":"Korea (the Democratic People's Republic of)"}
+{"code":"KR","field":"nationality","value":"Korea (The Republic Of)"}
+{"code":"KW","field":"nationality","value":"Kuwait"}
+{"code":"KY","field":"nationality","value":"Cayman Islands (the)"}
+{"code":"KZ","field":"nationality","value":"Kazakhstan"}
+{"code":"LA","field":"nationality","value":"Lao People'S Democratic Republic (The)"}
+{"code":"LB","field":"nationality","value":"Lebanon"}
+{"code":"LC","field":"nationality","value":"Saint Lucia"}
+{"code":"LI","field":"nationality","value":"Liechtenstein"}
+{"code":"LK","field":"nationality","value":"Sri Lanka"}
+{"code":"TJ","field":"country","value":"Tajikistan"}
+{"code":"TK","field":"country","value":"Tokelau"}
+{"code":"TL","field":"country","value":"Timor-Leste"}
+{"code":"TM","field":"country","value":"Turkmenistan"}
+{"code":"TN","field":"country","value":"Tunisia"}
+{"code":"TO","field":"country","value":"Tonga"}
+{"code":"TR","field":"country","value":"Turkey"}
+{"code":"TT","field":"country","value":"Trinidad And Tobago"}
+{"code":"TV","field":"country","value":"Tuvalu"}
+{"code":"TW","field":"country","value":"Taiwan (Province Of China)"}
+{"code":"TZ","field":"country","value":"Tanzania, the United Republic of"}
+{"code":"UA","field":"country","value":"Ukraine"}
+{"code":"UG","field":"country","value":"Uganda"}
+{"code":"UM","field":"country","value":"United States Minor Outlying Islands (the)"}
+{"code":"US","field":"country","value":"United States Of America (The)"}
+{"code":"UY","field":"country","value":"Uruguay"}
+{"code":"UZ","field":"country","value":"Uzbekistan"}
+{"code":"VA","field":"country","value":"Holy See (The)"}
+{"code":"VC","field":"country","value":"Saint Vincent And The Grenadines"}
+{"code":"VE","field":"country","value":"Venezuela (Bolivarian Republic Of)"}
+{"code":"VG","field":"country","value":"Virgin Islands (British)"}
+{"code":"VI","field":"country","value":"Virgin Islands (U.S.)"}
+{"code":"VN","field":"country","value":"Viet Nam"}
+{"code":"VU","field":"country","value":"Vanuatu"}
+{"code":"WF","field":"country","value":"Wallis And Futuna"}
+{"code":"BA","field":"country","value":"Bosnia And Herzegovina"}
+{"code":"BB","field":"country","value":"Barbados"}
+{"code":"BD","field":"country","value":"Bangladesh"}
+{"code":"BE","field":"country","value":"Belgium"}
+{"code":"BF","field":"country","value":"Burkina Faso"}
+{"code":"BG","field":"country","value":"Bulgaria"}
+{"code":"BH","field":"country","value":"Bahrain"}
+{"code":"BI","field":"country","value":"Burundi"}
+{"code":"BJ","field":"country","value":"Benin"}
+{"code":"BL","field":"country","value":"Saint Barthélemy"}
+{"code":"BM","field":"country","value":"Bermuda"}
+{"code":"BN","field":"country","value":"Brunei Darussalam"}
+{"code":"BO","field":"country","value":"Bolivia (Plurinational State of)"}
+{"code":"BQ","field":"country","value":"Bonaire, Sint Eustatius And Saba"}
+{"code":"BR","field":"country","value":"Brazil"}
+{"code":"BS","field":"country","value":"Bahamas (The)"}
+{"code":"BT","field":"country","value":"Bhutan"}
+{"code":"BV","field":"country","value":"Bouvet Island"}
+{"code":"BW","field":"country","value":"Botswana"}
+{"code":"BY","field":"country","value":"Belarus"}
+{"code":"BZ","field":"country","value":"Belize"}
+{"code":"CA","field":"country","value":"Canada"}
+{"code":"CC","field":"country","value":"CC Cocos (Keeling) Islands (the)"}
+{"code":"CD","field":"country","value":"Congo (The Democratic Republic Of The)"}
+{"code":"CF","field":"country","value":"Central African Republic (The)"}
+{"code":"GF","field":"nationality","value":"French Guiana"}
+{"code":"GG","field":"nationality","value":"Guernsey"}
+{"code":"GH","field":"nationality","value":"Ghana"}
+{"code":"GI","field":"nationality","value":"Gibraltar"}
+{"code":"GL","field":"nationality","value":"Greenland"}
+{"code":"GM","field":"nationality","value":"Gambia (The)"}
+{"code":"GN","field":"nationality","value":"Guinea"}
+{"code":"GP","field":"nationality","value":"Guadeloupe"}
+{"code":"GQ","field":"nationality","value":"Equatorial Guinea"}
+{"code":"GR","field":"nationality","value":"Greece"}
+{"code":"GS","field":"nationality","value":"South Georgia and the South Sandwich Islands"}
+{"code":"GT","field":"nationality","value":"Guatemala"}
+{"code":"GU","field":"nationality","value":"Guam"}
+{"code":"GW","field":"nationality","value":"Guinea-Bissau"}
+{"code":"GY","field":"nationality","value":"Guyana"}
+{"code":"HK","field":"nationality","value":"Hong Kong"}
+{"code":"HM","field":"nationality","value":"Heard Island and McDonald Islands"}
+{"code":"HN","field":"nationality","value":"Honduras"}
+{"code":"HR","field":"nationality","value":"Croatia"}
+{"code":"HT","field":"nationality","value":"Haiti"}
+{"code":"HU","field":"nationality","value":"Hungary"}
+{"code":"ID","field":"nationality","value":"Indonesia"}
+{"code":"IE","field":"nationality","value":"Ireland"}
+{"code":"IL","field":"nationality","value":"Israel"}
+{"code":"IM","field":"nationality","value":"Isle Of Man"}
+{"code":"IN","field":"nationality","value":"India"}
+{"code":"KI","field":"country","value":"Kiribati"}
+{"code":"KM","field":"country","value":"Comoros (The)"}
+{"code":"KN","field":"country","value":"Saint Kitts And Nevis"}
+{"code":"KP","field":"country","value":"Korea (the Democratic People's Republic of)"}
+{"code":"KR","field":"country","value":"Korea (The Republic Of)"}
+{"code":"KW","field":"country","value":"Kuwait"}
+{"code":"KY","field":"country","value":"Cayman Islands (the)"}
+{"code":"KZ","field":"country","value":"Kazakhstan"}
+{"code":"LA","field":"country","value":"Lao People'S Democratic Republic (The)"}
+{"code":"LB","field":"country","value":"Lebanon"}
+{"code":"LC","field":"country","value":"Saint Lucia"}
+{"code":"LI","field":"country","value":"Liechtenstein"}
+{"code":"LK","field":"country","value":"Sri Lanka"}
+{"code":"LR","field":"country","value":"Liberia"}
+{"code":"LS","field":"country","value":"Lesotho"}
+{"code":"LT","field":"country","value":"Lithuania"}
+{"code":"LU","field":"country","value":"Luxembourg"}
+{"code":"LV","field":"country","value":"Latvia"}
+{"code":"LY","field":"country","value":"Libya"}
+{"code":"MA","field":"country","value":"Morocco"}
+{"code":"MC","field":"country","value":"Monaco"}
+{"code":"MD","field":"country","value":"Moldova (the Republic of)"}
+{"code":"MD","field":"country","value":"Moldova (the Republic of)"}
+{"code":"ME","field":"country","value":"Montenegro"}
+{"code":"MF","field":"country","value":"Saint Martin (French Part)"}
+{"code":"SO","field":"nationality","value":"Somalia"}
+{"code":"SR","field":"nationality","value":"Suriname"}
+{"code":"SS","field":"nationality","value":"South Sudan"}
+{"code":"ST","field":"nationality","value":"Sao Tome And Principe"}
+{"code":"SV","field":"nationality","value":"El Salvador"}
+{"code":"SX","field":"nationality","value":"Sint Maarten (Dutch part)"}
+{"code":"SY","field":"nationality","value":"Syrian Arab Republic (the)"}
+{"code":"SZ","field":"nationality","value":"Eswatini"}
+{"code":"TC","field":"nationality","value":"Turks and Caicos Islands (the)"}
+{"code":"TD","field":"nationality","value":"Chad"}
+{"code":"TF","field":"nationality","value":"French Southern Territories (The)"}
+{"code":"TG","field":"nationality","value":"Togo"}
+{"code":"TH","field":"nationality","value":"Thailand"}
+{"code":"TJ","field":"nationality","value":"Tajikistan"}
+{"code":"TK","field":"nationality","value":"Tokelau"}
+{"code":"TL","field":"nationality","value":"Timor-Leste"}
+{"code":"TM","field":"nationality","value":"Turkmenistan"}
+{"code":"TN","field":"nationality","value":"Tunisia"}
+{"code":"TO","field":"nationality","value":"Tonga"}
+{"code":"TR","field":"nationality","value":"Turkey"}
+{"code":"TT","field":"nationality","value":"Trinidad And Tobago"}
+{"code":"TV","field":"nationality","value":"Tuvalu"}
+{"code":"TW","field":"nationality","value":"Taiwan (Province Of China)"}
+{"code":"TZ","field":"nationality","value":"Tanzania, the United Republic of"}
+{"code":"UA","field":"nationality","value":"Ukraine"}
+{"code":"LR","field":"nationality","value":"Liberia"}
+{"code":"LS","field":"nationality","value":"Lesotho"}
+{"code":"LT","field":"nationality","value":"Lithuania"}
+{"code":"LU","field":"nationality","value":"Luxembourg"}
+{"code":"LV","field":"nationality","value":"Latvia"}
+{"code":"LY","field":"nationality","value":"Libya"}
+{"code":"MA","field":"nationality","value":"Morocco"}
+{"code":"MC","field":"nationality","value":"Monaco"}
+{"code":"MD","field":"nationality","value":"Moldova (the Republic of)"}
+{"code":"MD","field":"nationality","value":"Moldova (the Republic of)"}
+{"code":"ME","field":"nationality","value":"Montenegro"}
+{"code":"MF","field":"nationality","value":"Saint Martin (French Part)"}
+{"code":"MG","field":"nationality","value":"Madagascar"}
+{"code":"MH","field":"nationality","value":"Marshall Islands (The)"}
+{"code":"MK","field":"nationality","value":"North Macedonia"}
+{"code":"ML","field":"nationality","value":"Mali"}
+{"code":"MM","field":"nationality","value":"Myanmar"}
+{"code":"MN","field":"nationality","value":"Mongolia"}
+{"code":"MO","field":"nationality","value":"Macao"}
+{"code":"MP","field":"nationality","value":"Northern Mariana Islands (The)"}
+{"code":"MQ","field":"nationality","value":"Martinique"}
+{"code":"MR","field":"nationality","value":"Mauritania"}
+{"code":"MS","field":"nationality","value":"Montserrat"}
+{"code":"MT","field":"nationality","value":"Malta"}
+{"code":"MU","field":"nationality","value":"Mauritius"}
+{"code":"CY","field":"nationality","value":"Cyprus"}
+{"code":"CZ","field":"nationality","value":"Czechia"}
+{"code":"DE","field":"nationality","value":"Germany"}
+{"code":"DJ","field":"nationality","value":"Djibouti"}
+{"code":"DK","field":"nationality","value":"Denmark"}
+{"code":"DM","field":"nationality","value":"Dominica"}
+{"code":"DO","field":"nationality","value":"Dominican Republic (the)"}
+{"code":"DZ","field":"nationality","value":"Algeria"}
+{"code":"EC","field":"nationality","value":"Ecuador"}
+{"code":"EE","field":"nationality","value":"Estonia"}
+{"code":"EG","field":"nationality","value":"Egypt"}
+{"code":"EH","field":"nationality","value":"Western Sahara*"}
+{"code":"ER","field":"nationality","value":"Eritrea"}
+{"code":"ES","field":"nationality","value":"Spain"}
+{"code":"ET","field":"nationality","value":"Ethiopia"}
+{"code":"FI","field":"nationality","value":"Finland"}
+{"code":"FJ","field":"nationality","value":"Fiji"}
+{"code":"FK","field":"nationality","value":"Falkland Islands (the) [Malvinas]"}
+{"code":"FM","field":"nationality","value":"Micronesia (Federated States Of)"}
+{"code":"FO","field":"nationality","value":"Faroe Islands (the)"}
+{"code":"FR","field":"nationality","value":"France"}
+{"code":"GA","field":"nationality","value":"Gabon"}
+{"code":"GB","field":"nationality","value":"United Kingdom Of Great Britain And Northern Ireland (The)"}
+{"code":"GD","field":"nationality","value":"Grenada"}
+{"code":"GE","field":"nationality","value":"Georgia"}
+{"code":"AG","field":"nationality","value":"Antigua And Barbuda"}
+{"code":"AI","field":"nationality","value":"Anguilla"}
+{"code":"AL","field":"nationality","value":"Albania"}
+{"code":"AM","field":"nationality","value":"Armenia"}
+{"code":"AO","field":"nationality","value":"Angola"}
+{"code":"AQ","field":"nationality","value":"Antarctica"}
+{"code":"AR","field":"nationality","value":"Argentina"}
+{"code":"AS","field":"nationality","value":"American Samoa"}
+{"code":"AT","field":"nationality","value":"Austria"}
+{"code":"AU","field":"nationality","value":"Australia"}
+{"code":"AW","field":"nationality","value":"Aruba"}
+{"code":"AX","field":"nationality","value":"Åland Islands"}
+{"code":"AZ","field":"nationality","value":"Azerbaijan"}
+{"code":"BA","field":"nationality","value":"Bosnia And Herzegovina"}
+{"code":"BB","field":"nationality","value":"Barbados"}
+{"code":"BD","field":"nationality","value":"Bangladesh"}
+{"code":"BE","field":"nationality","value":"Belgium"}
+{"code":"BF","field":"nationality","value":"Burkina Faso"}
+{"code":"BG","field":"nationality","value":"Bulgaria"}
+{"code":"BH","field":"nationality","value":"Bahrain"}
+{"code":"BI","field":"nationality","value":"Burundi"}
+{"code":"BJ","field":"nationality","value":"Benin"}
+{"code":"BL","field":"nationality","value":"Saint Barthélemy"}
+{"code":"BM","field":"nationality","value":"Bermuda"}
+{"code":"BN","field":"nationality","value":"Brunei Darussalam"}
+{"code":"BO","field":"nationality","value":"Bolivia (Plurinational State of)"}
+{"code":"BQ","field":"nationality","value":"Bonaire, Sint Eustatius And Saba"}
+{"code":"BR","field":"nationality","value":"Brazil"}
+{"code":"BS","field":"nationality","value":"Bahamas (The)"}
+{"code":"BT","field":"nationality","value":"Bhutan"}
+{"code":"BV","field":"nationality","value":"Bouvet Island"}
+{"code":"BW","field":"nationality","value":"Botswana"}
+{"code":"BY","field":"nationality","value":"Belarus"}
+{"code":"BZ","field":"nationality","value":"Belize"}
+{"code":"CA","field":"nationality","value":"Canada"}
+{"code":"CC","field":"nationality","value":"CC Cocos (Keeling) Islands (the)"}
+{"code":"CD","field":"nationality","value":"Congo (The Democratic Republic Of The)"}
+{"code":"CF","field":"nationality","value":"Central African Republic (The)"}
+{"code":"CG","field":"nationality","value":"Congo (The)"}
+{"code":"CH","field":"nationality","value":"Switzerland"}
+{"code":"CI","field":"nationality","value":"Côte d'Ivoire"}
+{"code":"CK","field":"nationality","value":"Cook Islands (the)"}
+{"code":"CL","field":"nationality","value":"Chile"}
+{"code":"CM","field":"nationality","value":"Cameroon"}
+{"code":"CN","field":"nationality","value":"China"}
+{"code":"CO","field":"nationality","value":"Colombia"}
+{"code":"CR","field":"nationality","value":"Costa Rica"}
+{"code":"CU","field":"nationality","value":"Cuba"}
+{"code":"CV","field":"nationality","value":"Cabo Verde"}
+{"code":"CW","field":"nationality","value":"Curaçao"}
+{"code":"CX","field":"nationality","value":"Christmas Island"}
+{"code":"MV","field":"nationality","value":"Maldives"}
+{"code":"MW","field":"nationality","value":"Malawi"}
+{"code":"MX","field":"nationality","value":"Mexico"}
+{"code":"MY","field":"nationality","value":"Malaysia"}
+{"code":"MZ","field":"nationality","value":"Mozambique"}
+{"code":"NA","field":"nationality","value":"Namibia"}
+{"code":"NC","field":"nationality","value":"New Caledonia"}
+{"code":"NE","field":"nationality","value":"Niger (The)"}
+{"code":"NF","field":"nationality","value":"Norfolk Island"}
+{"code":"NG","field":"nationality","value":"Nigeria"}
+{"code":"NI","field":"nationality","value":"Nicaragua"}
+{"code":"NL","field":"nationality","value":"NL Netherlands (the)"}
+{"code":"NO","field":"nationality","value":"Norway"}
+{"code":"NP","field":"nationality","value":"Nepal"}
+{"code":"NR","field":"nationality","value":"Nauru"}
+{"code":"NU","field":"nationality","value":"Niue"}
+{"code":"NZ","field":"nationality","value":"New Zealand"}
+{"code":"OM","field":"nationality","value":"Oman"}
+{"code":"PA","field":"nationality","value":"Panama"}
+{"code":"PE","field":"nationality","value":"Peru"}
+{"code":"PF","field":"nationality","value":"French Polynesia"}
+{"code":"PG","field":"nationality","value":"Papua New Guinea"}
+{"code":"PH","field":"nationality","value":"Philippines (The)"}
+{"code":"PK","field":"nationality","value":"Pakistan"}
+{"code":"PL","field":"nationality","value":"Poland"}
+{"code":"PM","field":"nationality","value":"Saint Pierre And Miquelon"}
+{"code":"GW","field":"country","value":"Guinea-Bissau"}
+{"code":"GY","field":"country","value":"Guyana"}
+{"code":"HK","field":"country","value":"Hong Kong"}
+{"code":"HM","field":"country","value":"Heard Island and McDonald Islands"}
+{"code":"HN","field":"country","value":"Honduras"}
+{"code":"HR","field":"country","value":"Croatia"}
+{"code":"HT","field":"country","value":"Haiti"}
+{"code":"HU","field":"country","value":"Hungary"}
+{"code":"ID","field":"country","value":"Indonesia"}
+{"code":"IE","field":"country","value":"Ireland"}
+{"code":"IL","field":"country","value":"Israel"}
+{"code":"IM","field":"country","value":"Isle Of Man"}
+{"code":"IN","field":"country","value":"India"}
+{"code":"IO","field":"country","value":"British Indian Ocean Territory (The)"}
+{"code":"IQ","field":"country","value":"Iraq"}
+{"code":"IR","field":"country","value":"Iran (Islamic Republic Of)"}
+{"code":"IS","field":"country","value":"Iceland"}
+{"code":"IT","field":"country","value":"Italy"}
+{"code":"JE","field":"country","value":"Jersey"}
+{"code":"JM","field":"country","value":"Jamaica"}
+{"code":"JO","field":"country","value":"Jordan"}
+{"code":"JP","field":"country","value":"Japan"}
+{"code":"KE","field":"country","value":"Kenya"}
+{"code":"KG","field":"country","value":"Kyrgyzstan"}
+{"code":"KH","field":"country","value":"Cambodia"}
+{"code":"PN","field":"nationality","value":"Pitcairn"}
+{"code":"PR","field":"nationality","value":"Puerto Rico"}
+{"code":"PS","field":"nationality","value":"Palestine, State Of"}
+{"code":"PT","field":"nationality","value":"Portugal"}
+{"code":"PW","field":"nationality","value":"Palau"}
+{"code":"PY","field":"nationality","value":"Paraguay"}
+{"code":"QA","field":"nationality","value":"Qatar"}
+{"code":"RE","field":"nationality","value":"Réunion"}
+{"code":"RO","field":"nationality","value":"Romania"}
+{"code":"RS","field":"nationality","value":"Serbia"}
+{"code":"RU","field":"nationality","value":"Russian Federation (The)"}
+{"code":"RW","field":"nationality","value":"Rwanda"}
+{"code":"SA","field":"nationality","value":"Saudi Arabia"}
+{"code":"SB","field":"nationality","value":"Solomon Islands"}
+{"code":"SC","field":"nationality","value":"Seychelles"}
+{"code":"SD","field":"nationality","value":"Sudan (The)"}
+{"code":"SE","field":"nationality","value":"Sweden"}
+{"code":"SG","field":"nationality","value":"Singapore"}
+{"code":"SH","field":"nationality","value":"Saint Helena, Ascension And Tristan Da Cunha"}
+{"code":"SI","field":"nationality","value":"Slovenia"}
+{"code":"SJ","field":"nationality","value":"Svalbard And Jan Mayen"}
+{"code":"SK","field":"nationality","value":"Slovakia"}
+{"code":"SL","field":"nationality","value":"Sierra Leone"}
+{"code":"SM","field":"nationality","value":"San Marino"}
+{"code":"SN","field":"nationality","value":"Senegal"}
+{"code":"5","field":"race","value":"indian"}
+{"code":"6","field":"race","value":"malay"}
+{"code":"0","field":"sanction","value":"yes"}
+{"code":"1","field":"sanction","value":"no"}
+{"code":"MY-00","field":"state","value":"Others"}
+{"code":"MY-01","field":"state","value":"Johor"}
+{"code":"MY-02","field":"state","value":"Kedah"}
+{"code":"MY-03","field":"state","value":"Kelantan"}
+{"code":"MY-04","field":"state","value":"Melaka"}
+{"code":"MY-05","field":"state","value":"Negeri Sembilan"}
+{"code":"MY-06","field":"state","value":"Pahang"}
+{"code":"MY-07","field":"state","value":"Pulau Pinang"}
+{"code":"MY-08","field":"state","value":"Perak"}
+{"code":"MY-09","field":"state","value":"Perlis"}
+{"code":"MY-10","field":"state","value":"Selangor"}
+{"code":"MY-11","field":"state","value":"Terengganu"}
+{"code":"MY-12","field":"state","value":"Sabah"}
+{"code":"MY-13","field":"state","value":"Sarawak"}
+{"code":"MY-14","field":"state","value":"Wp Kuala Lumpur"}
+{"code":"MY-15","field":"state","value":"Wp Labuan"}
+{"code":"MY-16","field":"state","value":"Wp Putrajaya"}
+{"code":"0","field":"verification_level","value":"level 1 - dealer"}
+{"code":"1","field":"verification_level","value":"level 2 - agent"}
+{"code":"2","field":"verification_level","value":"level 3 - ekyc"}
+{"code":"3","field":"verification_level","value":"level 3 - branch/marketing"}
+{"code":"NP","field":"country","value":"Nepal"}
+{"code":"NR","field":"country","value":"Nauru"}
+{"code":"NU","field":"country","value":"Niue"}
+{"code":"NZ","field":"country","value":"New Zealand"}
+{"code":"OM","field":"country","value":"Oman"}
+{"code":"PA","field":"country","value":"Panama"}
+{"code":"PE","field":"country","value":"Peru"}
+{"code":"PF","field":"country","value":"French Polynesia"}
+{"code":"PG","field":"country","value":"Papua New Guinea"}
+{"code":"PH","field":"country","value":"Philippines (The)"}
+{"code":"PK","field":"country","value":"Pakistan"}
+{"code":"PL","field":"country","value":"Poland"}
+{"code":"PM","field":"country","value":"Saint Pierre And Miquelon"}
+{"code":"PN","field":"country","value":"Pitcairn"}
+{"code":"PR","field":"country","value":"Puerto Rico"}
+{"code":"PS","field":"country","value":"Palestine, State Of"}
+{"code":"PT","field":"country","value":"Portugal"}
+{"code":"PW","field":"country","value":"Palau"}
+{"code":"PY","field":"country","value":"Paraguay"}
+{"code":"QA","field":"country","value":"Qatar"}
+{"code":"RE","field":"country","value":"Réunion"}
+{"code":"RO","field":"country","value":"Romania"}
+{"code":"RS","field":"country","value":"Serbia"}
+{"code":"RU","field":"country","value":"Russian Federation (The)"}
+{"code":"RW","field":"country","value":"Rwanda"}
+{"code":"CG","field":"country","value":"Congo (The)"}
+{"code":"CH","field":"country","value":"Switzerland"}
+{"code":"CI","field":"country","value":"Côte d'Ivoire"}
+{"code":"CK","field":"country","value":"Cook Islands (the)"}
+{"code":"CL","field":"country","value":"Chile"}
+{"code":"CM","field":"country","value":"Cameroon"}
+{"code":"CN","field":"country","value":"China"}
+{"code":"CO","field":"country","value":"Colombia"}
+{"code":"CR","field":"country","value":"Costa Rica"}
+{"code":"CU","field":"country","value":"Cuba"}
+{"code":"CV","field":"country","value":"Cabo Verde"}
+{"code":"CW","field":"country","value":"Curaçao"}
+{"code":"CX","field":"country","value":"Christmas Island"}
+{"code":"CY","field":"country","value":"Cyprus"}
+{"code":"CZ","field":"country","value":"Czechia"}
+{"code":"DE","field":"country","value":"Germany"}
+{"code":"DJ","field":"country","value":"Djibouti"}
+{"code":"DK","field":"country","value":"Denmark"}
+{"code":"DM","field":"country","value":"Dominica"}
+{"code":"DO","field":"country","value":"Dominican Republic (the)"}
+{"code":"DZ","field":"country","value":"Algeria"}
+{"code":"EC","field":"country","value":"Ecuador"}
+{"code":"EE","field":"country","value":"Estonia"}
+{"code":"EG","field":"country","value":"Egypt"}
+{"code":"EH","field":"country","value":"Western Sahara*"}
+{"code":"MG","field":"country","value":"Madagascar"}
+{"code":"MH","field":"country","value":"Marshall Islands (The)"}
+{"code":"MK","field":"country","value":"North Macedonia"}
+{"code":"ML","field":"country","value":"Mali"}
+{"code":"MM","field":"country","value":"Myanmar"}
+{"code":"MN","field":"country","value":"Mongolia"}
+{"code":"MO","field":"country","value":"Macao"}
+{"code":"MP","field":"country","value":"Northern Mariana Islands (The)"}
+{"code":"MQ","field":"country","value":"Martinique"}
+{"code":"MR","field":"country","value":"Mauritania"}
+{"code":"MS","field":"country","value":"Montserrat"}
+{"code":"MT","field":"country","value":"Malta"}
+{"code":"MU","field":"country","value":"Mauritius"}
+{"code":"MV","field":"country","value":"Maldives"}
+{"code":"MW","field":"country","value":"Malawi"}
+{"code":"MX","field":"country","value":"Mexico"}
+{"code":"MY","field":"country","value":"Malaysia"}
+{"code":"MZ","field":"country","value":"Mozambique"}
+{"code":"NA","field":"country","value":"Namibia"}
+{"code":"NC","field":"country","value":"New Caledonia"}
+{"code":"NE","field":"country","value":"Niger (The)"}
+{"code":"NF","field":"country","value":"Norfolk Island"}
+{"code":"NG","field":"country","value":"Nigeria"}
+{"code":"NI","field":"country","value":"Nicaragua"}
+{"code":"NL","field":"country","value":"NL Netherlands (the)"}
+{"code":"NO","field":"country","value":"Norway"}

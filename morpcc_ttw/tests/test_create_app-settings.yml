@@ -1,0 +1,9 @@
+application:
+  title: App
+  class: morpcc_ttw.tests.test_ttwapp:App
+  factory: morpcc.app:create_morpcc_app
+  development_mode: true
+
+configuration:
+  morpfw.storage.sqlstorage.dburl: postgresql://postgres@localhost:45678/morpcc_tests
+  morpfw.storage.sqlstorage.dburl.warehouse: 'postgresql://postgres@localhost:45678/morpcc_warehouse'

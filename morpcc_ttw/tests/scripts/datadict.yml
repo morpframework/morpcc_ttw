@@ -1,0 +1,43 @@
+general:
+  title: General
+  elements:
+    race: 
+      title: Race
+      type_: string
+      referencedata_name: race
+    cifid:
+      title: CIF ID
+      type_: string
+    date_of_birth:
+      title: Date Of Birth
+      type_: date
+    gender:
+      title: Gender
+      type_: string
+      referencedata_name: gender
+    full_name:
+      title: Full Name
+      type_: string
+    email:
+      title: Email
+      type_: string
+    customer_status:
+      title: Customer Status
+      type_: string
+      referencedata_name: customer_status
+    id_doc_type:
+      title: ID Document Type
+      type_: string
+      referencedata_name: id_doc_type
+    countries:
+      title: Countries
+      type_: string
+      referencedata_name: country
+    nationalities:
+      title: Nationalities
+      type_: string
+      referencedata_name: nationality
+    address_types:
+      title: Address Types
+      type_: string
+      referencedata_name: address_type
