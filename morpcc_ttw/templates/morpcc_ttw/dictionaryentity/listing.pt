@@ -34,7 +34,7 @@
                     </table>
 
                     <button id="dictionaryentity-add" class="btn btn-default modal-link"
-                        data-url="${request.relative_url('/dictionaryentity/+modal-create')}">
+                        data-url="${request.relative_url('/ttw.dictionaryentity/+modal-create')}">
                         Add
                     </button>
 

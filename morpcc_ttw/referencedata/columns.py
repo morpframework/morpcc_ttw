@@ -5,17 +5,17 @@ from .model import ReferenceDataModel
 @App.structure_column(model=ReferenceDataModel, name="buttons")
 def get_buttons_column(model, request, name):
     uiobj = model.ui()
-
+    keycol = request.get_collection('morpcc.referencedatakey').ui()
     buttons = [
         {
             "icon": "eye",
-            "data-url": request.relative_url(
-                "/referencedatakey/+datatable.json?filter=referencedata_uuid%3D%3D'{}'".format(
+            "data-url": request.link(
+                keycol, "/+datatable.json?filter=referencedata_uuid%3D%3D'{}'".format(
                     model.uuid
                 )
             ),
-            "data-create-url": request.relative_url(
-                "/referencedatakey/+modal-create?referencedata_uuid={}".format(
+            "data-create-url": request.link(
+                keycol, "+modal-create?referencedata_uuid={}".format(
                     model.uuid
                 )
             ),

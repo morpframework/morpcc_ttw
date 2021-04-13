@@ -5,17 +5,17 @@ from .model import EndpointModel
 @App.structure_column(model=EndpointModel, name="buttons")
 def get_buttons_column(model, request, name):
     uiobj = model.ui()
+    handlercol = request.get_collection("morpcc.endpointhandler").ui()
 
     buttons = [
         {
             "icon": "eye",
-            "data-url": request.relative_url(
-                "/endpointhandler/+datatable.json?filter=endpoint_uuid%3D%3D'{}'".format(
-                    model.uuid
-                )
+            "data-url": request.link(
+                handlercol,
+                "+datatable.json?filter=endpoint_uuid%3D%3D'{}'".format(model.uuid),
             ),
-            "data-create-url": request.relative_url(
-                "/endpointhandler/+modal-create?endpoint_uuid={}".format(model.uuid)
+            "data-create-url": request.link(
+                handlercol, "+modal-create?endpoint_uuid={}".format(model.uuid)
             ),
             "title": "View",
             "class": "endpoint-view-link",

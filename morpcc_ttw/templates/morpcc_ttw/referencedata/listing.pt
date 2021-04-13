@@ -46,7 +46,7 @@
                     </table>
 
                     <button id="refdata-add" class="btn btn-default modal-link"
-                        data-url="${request.relative_url('/referencedata/+modal-create')}">
+                        data-url="${request.relative_url('/ttw.referencedata/+modal-create')}">
                         Add
                     </button>
 
@@ -67,7 +67,7 @@
                         </table>
 
                         <button id="refdatakey-add" class="btn btn-default modal-link"
-                            data-url="${request.relative_url('/referencedatakey/+modal-create')}">
+                            data-url="${request.relative_url('/ttw.referencedatakey/+modal-create')}">
                             Add
                         </button>
                     </div>
@@ -91,7 +91,7 @@
                         </table>
 
                         <button id="refdataprop-add" class="btn btn-default modal-link"
-                            data-url="${request.relative_url('/referencedataproperty/+modal-create')}">
+                            data-url="${request.relative_url('/ttw.referencedataproperty/+modal-create')}">
                             Add
                         </button>
                     </div>

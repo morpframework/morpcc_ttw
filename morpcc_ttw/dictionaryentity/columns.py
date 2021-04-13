@@ -5,19 +5,18 @@ from .model import DictionaryEntityModel
 @App.structure_column(model=DictionaryEntityModel, name="buttons")
 def get_buttons_column(model, request, name):
     uiobj = model.ui()
-
+    dictel_col = request.get_collection("morpcc.dictionaryelement").ui()
     buttons = [
         {
             "icon": "eye",
-            "data-url": request.relative_url(
-                "/dictionaryelement/+datatable.json?filter=dictionaryentity_uuid%3D%3D'{}'".format(
+            "data-url": request.link(
+                dictel_col,
+                "+datatable.json?filter=dictionaryentity_uuid%3D%3D'{}'".format(
                     model.uuid
-                )
+                ),
             ),
-            "data-create-url": request.relative_url(
-                "/dictionaryelement/+modal-create?dictionaryentity_uuid={}".format(
-                    model.uuid
-                )
+            "data-create-url": request.link(
+                dictel_col, "+modal-create?dictionaryentity_uuid={}".format(model.uuid)
             ),
             "title": "View",
             "class": "dictionaryentity-view-link",

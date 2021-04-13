@@ -35,7 +35,7 @@
                     </table>
 
                     <button id="endpoint-add" class="btn btn-default modal-link"
-                        data-url="${request.relative_url('/endpoint/+modal-create')}">
+                        data-url="${request.relative_url('/ttw.endpoint/+modal-create')}">
                         Add
                     </button>
 
@@ -57,7 +57,7 @@
                         </table>
 
                         <button id="endpointhandler-add" class="btn btn-default modal-link"
-                            data-url="${request.relative_url('/endpointhandler/+modal-create')}">
+                            data-url="${request.relative_url('/ttw.endpointhandler/+modal-create')}">
                             Add
                         </button>
                     </div>
