@@ -17,7 +17,7 @@ from .modelui import EntityCollectionUI, EntityModelUI
 @App.html(
     model=EntityModelUI,
     name="edit",
-    template="master/entity/edit.pt",
+    template="morpcc_ttw/entity/edit.pt",
     permission=crudperm.Edit,
 )
 def edit(context, request):

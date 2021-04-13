@@ -10,7 +10,7 @@ from .modelui import SchemaModelUI
 @App.html(
     model=SchemaModelUI,
     name="edit",
-    template="master/schema/edit.pt",
+    template="morpcc_ttw/schema/edit.pt",
     permission=crudperm.Edit,
 )
 def edit(context, request):

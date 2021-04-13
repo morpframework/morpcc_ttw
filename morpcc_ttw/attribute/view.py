@@ -12,7 +12,7 @@ from .modelui import AttributeCollectionUI, AttributeModelUI
 @App.html(
     model=AttributeModelUI,
     name="edit",
-    template="master/attribute/edit.pt",
+    template="morpcc_ttw/attribute/edit.pt",
     permission=crudperm.Edit,
 )
 def edit(context, request):

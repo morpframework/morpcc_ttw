@@ -9,7 +9,7 @@ from .modelui import DictionaryEntityCollectionUI
 @App.html(
     model=DictionaryEntityCollectionUI,
     name="listing",
-    template="master/dictionaryentity/listing.pt",
+    template="morpcc_ttw/dictionaryentity/listing.pt",
     permission=crudperms.Search,
 )
 def view(context, request):

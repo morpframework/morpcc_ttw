@@ -11,7 +11,7 @@ def get_modules(request):
             {
                 "title": "Manage Schemas",
                 "icon": "file-code-o",
-                "href": request.relative_url("/schema/+listing"),
+                "href": request.relative_url("/ttw.schema/+listing"),
             }
         )
 
@@ -20,7 +20,7 @@ def get_modules(request):
             {
                 "title": "Manage Reference Data",
                 "icon": "book",
-                "href": request.relative_url("/referencedata/+listing"),
+                "href": request.relative_url("/ttw.referencedata/+listing"),
             }
         )
 
@@ -29,7 +29,7 @@ def get_modules(request):
             {
                 "title": "Manage Attribute Validators",
                 "icon": "check-circle",
-                "href": request.relative_url("/attributevalidator/+listing"),
+                "href": request.relative_url("/ttw.attributevalidator/+listing"),
             },
         )
 
@@ -38,7 +38,7 @@ def get_modules(request):
             {
                 "title": "Manage Entity Validators",
                 "icon": "check-square",
-                "href": request.relative_url("/entityvalidator/+listing"),
+                "href": request.relative_url("/ttw.entityvalidator/+listing"),
             }
         )
 
@@ -47,7 +47,7 @@ def get_modules(request):
             {
                 "title": "Manage Data Dictionary",
                 "icon": "book",
-                "href": request.relative_url("/dictionaryentity/+listing"),
+                "href": request.relative_url("/ttw.dictionaryentity/+listing"),
             }
         )
 
@@ -56,7 +56,7 @@ def get_modules(request):
             {
                 "title": "Manage Applications",
                 "icon": "cubes",
-                "href": request.relative_url("/application/+listing"),
+                "href": request.relative_url("/ttw.application/+listing"),
             }
         )
 
@@ -65,7 +65,7 @@ def get_modules(request):
             {
                 "title": "Manage API Endpoints",
                 "icon": "code",
-                "href": request.relative_url("/endpoint/+listing"),
+                "href": request.relative_url("/ttw.endpoint/+listing"),
             }
         )
 

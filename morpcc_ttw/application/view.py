@@ -20,7 +20,7 @@ from .modelui import ApplicationModelUI
 @App.html(
     model=ApplicationModelUI,
     name="view",
-    template="master/application/view.pt",
+    template="morpcc_ttw/application/view.pt",
     permission=crudperm.View,
 )
 def view(context, request):
@@ -44,7 +44,7 @@ def view(context, request):
 @App.html(
     model=ApplicationModelUI,
     name="edit",
-    template="master/application/edit.pt",
+    template="morpcc_ttw/application/edit.pt",
     permission=crudperm.Edit,
 )
 def edit(context, request):
@@ -56,7 +56,7 @@ def edit(context, request):
 @App.html(
     model=ApplicationModelUI,
     name="schema-upgrade",
-    template="master/application/schema-upgrade.pt",
+    template="morpcc_ttw/application/schema-upgrade.pt",
     permission=crudperm.Edit,
 )
 def schema_upgrade(context, request):

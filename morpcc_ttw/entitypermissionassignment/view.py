@@ -19,7 +19,7 @@ from .modelui import (EntityPermissionAssignmentCollectionUI,
 @App.html(
     model=EntityContentCollectionUI,
     name="manage-permissions",
-    template="master/permission/entity.pt",
+    template="morpcc_ttw/permission/entity.pt",
     permission=ManagePermission,
 )
 def manage_permission(context, request):

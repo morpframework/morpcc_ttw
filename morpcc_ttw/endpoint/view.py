@@ -21,7 +21,7 @@ from .restrictedcontext import RestrictedContext, RestrictedRequest
 @App.html(
     model=EndpointCollectionUI,
     name="listing",
-    template="master/endpoint/listing.pt",
+    template="morpcc_ttw/endpoint/listing.pt",
     permission=crudperm.Search,
 )
 def view(context, request):

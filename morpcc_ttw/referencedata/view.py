@@ -14,7 +14,7 @@ from .path import get_collection as get_refdata_collection
 @App.html(
     model=ReferenceDataCollectionUI,
     name="listing",
-    template="master/referencedata/listing.pt",
+    template="morpcc_ttw/referencedata/listing.pt",
     permission=crudperms.Search,
 )
 def view(context, request):

@@ -11,7 +11,7 @@ from .modelui import DictionaryElementCollectionUI, DictionaryElementModelUI
 @App.html(
     model=DictionaryElementModelUI,
     name="edit",
-    template="master/dictionaryelement/edit.pt",
+    template="morpcc_ttw/dictionaryelement/edit.pt",
     permission=crudperm.Edit,
 )
 def edit(context, request):
